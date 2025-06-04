@@ -79,11 +79,11 @@ export default function Home() {
             <Button className="mt-6" variant="default">
               Contact
             </Button>
-            <p className="mt-6 font-bold">0858-8907-4464</p>
+            <p className="mt-6 font-bold">0822-1075-9896</p>
             <p className="mt-6 font-bold">chaisal.farabi@gmail.com</p>
           </div>
           <div className="flex mt-4 gap-4">
-            <a href="https://www.linkedin.com/in/rakha-ibnu-54b405285/">
+            <a href="https://www.linkedin.com/in/Chaisal-Farabi">
               <Image
                 src={"/linkedin.png"}
                 alt={"linkedin"}
@@ -91,7 +91,7 @@ export default function Home() {
                 height={50}
               />
             </a>
-            <a href="https://github.com/rakhaibnu">
+            <a href="https://github.com/ChaisalFarabi">
               <Image
                 src={"/github.png"}
                 alt={"github"}

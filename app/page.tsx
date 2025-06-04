@@ -83,7 +83,7 @@ export default function Home() {
             <p className="mt-6 font-bold">chaisal.farabi@gmail.com</p>
           </div>
           <div className="flex mt-4 gap-4">
-            <a href="https://www.linkedin.com/in/Chaisal-Farabi">
+            <a href="https://www.linkedin.com/in/chaisal-farabi-7101a5288/">
               <Image
                 src={"/linkedin.png"}
                 alt={"linkedin"}

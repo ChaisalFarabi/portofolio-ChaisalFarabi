@@ -16,7 +16,7 @@ const IMGS: string[] = [
   "/JavaScript.png",
   "/MySQL.png",
   "/React.png",
-  "/Tailwind.png",
+  "/canva.png",
   "/Vercel.png",
   "/Vite.png",
 ];

@@ -78,11 +78,9 @@ export default function Home() {
         <div className="flex flex-col items-start justify-center max-w-lg">
           <h3 className="text-4xl font-bold">Hai, I&apos;Chaisal Farabi</h3>
           <p className="mt-4 text-l">
-            Saya adalah mahasiswa aktif Program Studi Sistem Informasi di Universitas Pembangunan Nasional “Veteran” Jakarta, angkatan 2023. 
-            Saya memiliki minat yang kuat di bidang product management dan analisis data. 
-            Berpengalaman dalam melakukan riset pengguna, ideasi produk, serta perencanaan roadmap melalui berbagai proyek bootcamp.
-            Saya terbiasa menggunakan Google Sheets, SQL dasar, serta berbagai tools seperti Canva, Trello, dan FigJam. Saya juga memiliki kemampuan komunikasi, berpikir analitis, dan pemecahan masalah yang baik. 
-            Saya antusias dalam membangun produk digital yang berdampak melalui kolaborasi lintas tim.
+          Saya merupakan mahasiswa aktif Program Studi Sistem Informasi di UPN “Veteran” Jakarta, angkatan 2023, dengan minat besar di bidang product management dan analisis data. 
+          Berpengalaman dalam riset pengguna, pengembangan ide produk, dan perencanaan roadmap melalui berbagai proyek bootcamp. Terbiasa menggunakan Google Sheets, SQL dasar, serta tools seperti Canva, Trello, dan FigJam.
+          Saat ini, saya terus mengasah keterampilan untuk dapat berkontribusi dalam pengembangan solusi digital yang berdampak dan relevan.
           </p>
           <div className="flex gap-4 text-center items-center justify-center">
             <Button className="mt-6" variant="default">

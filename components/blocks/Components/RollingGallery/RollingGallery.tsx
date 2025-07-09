@@ -11,14 +11,14 @@ import {
 import Image from "next/image";
 
 const IMGS: string[] = [
-  "/CSS3.png",
-  "/HTML5.png",
+  "/draw.io.png",
+  "/spreadsheet.png",
   "/JavaScript.png",
   "/MySQL.png",
-  "/React.png",
+  "/Figma.png",
   "/canva.png",
-  "/Vercel.png",
-  "/Vite.png",
+  "/colab.png",
+  "/Trello.png",
 ];
 
 interface RollingGalleryProps {

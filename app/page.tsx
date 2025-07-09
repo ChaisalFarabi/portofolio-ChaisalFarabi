@@ -19,12 +19,20 @@ export default function Home() {
     "/mylento5.jpg",
   ];
 
-  const snakes = [
+  const cvBuilderImages = [
     "/CVBuilder1.jpg",
     "/CVBuilder2.jpg",
     "/CVBuilder3.jpg",
     "/CVBuilder4.jpg",
     "/CVBuilder5.jpg",
+  ];
+
+  const commufyImages = [
+    "/commufy1.jpg",
+    "/Commufy2.jpg",
+    "/Commufy3.jpg",
+    "/Commufy4.jpg",
+    "/Commufy5.jpg",
   ];
 
   const transformStyles = [
@@ -68,12 +76,13 @@ export default function Home() {
           }
         />
         <div className="flex flex-col items-start justify-center max-w-lg">
-          <h3 className="text-4xl font-bold">Hi, I&apos;Chaisal Farabi</h3>
+          <h3 className="text-4xl font-bold">Hai, I&apos;Chaisal Farabi</h3>
           <p className="mt-4 text-l">
-            I am an active student at UPN Veteran Jakarta, class of 2023,
-            majoring in Information Systems in the Faculty of Computer Science.
-            I am eager to learn, utilize my skills, and grow, especially in the
-            field of computer science.
+            Saya adalah mahasiswa aktif Program Studi Sistem Informasi di Universitas Pembangunan Nasional “Veteran” Jakarta, angkatan 2023. 
+            Saya memiliki minat yang kuat di bidang product management dan analisis data. 
+            Berpengalaman dalam melakukan riset pengguna, ideasi produk, serta perencanaan roadmap melalui berbagai proyek bootcamp.
+            Saya terbiasa menggunakan Google Sheets, SQL dasar, serta berbagai tools seperti Canva, Trello, dan FigJam. Saya juga memiliki kemampuan komunikasi, berpikir analitis, dan pemecahan masalah yang baik. 
+            Saya antusias dalam membangun produk digital yang berdampak melalui kolaborasi lintas tim.
           </p>
           <div className="flex gap-4 text-center items-center justify-center">
             <Button className="mt-6" variant="default">
@@ -153,7 +162,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-4 justify-center px-100 my-20">
               <BounceCards
                 className="custom-bounceCards"
-                images={snakes}
+                images={cvBuilderImages}
                 containerWidth={800}
                 containerHeight={400}
                 animationDelay={1}
@@ -176,23 +185,32 @@ export default function Home() {
               Menggunakan konsep Object-Oriented Programming (OOP) seperti enkapsulasi, pewarisan, dan polimorfisme untuk membuat aplikasi yang modular dan mudah dikembangkan.
             </p>
           </div>
-          <div className="font-serif my-20">
-            <h4 className="text-2xl font-semibold my-10 text-center">
-              Removies
-            </h4>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <Image
-                src={"/removies.png"}
-                alt={"removies"}
-                width={600}
-                height={300}
-                className="rounded-2xl shadow-md"
+          {/* Commufy Project */}
+          <div className="my-40">
+            <h3 className="font-bold text-3xl text-center">Commufy</h3>
+            <div className="flex flex-wrap gap-4 justify-center px-100 my-20">
+              <BounceCards
+                className="custom-bounceCards"
+                images={commufyImages}
+                containerWidth={800}
+                containerHeight={400}
+                animationDelay={1}
+                animationStagger={0.08}
+                easeType="elastic.out(1, 0.5)"
+                transformStyles={[
+                  "rotate(5deg) translate(-150px)",
+                  "rotate(0deg) translate(-70px)",
+                  "rotate(-5deg)",
+                  "rotate(5deg) translate(70px)",
+                  "rotate(-5deg) translate(150px)",
+                ]}
+                enableHover={true}
               />
             </div>
-            <p className="mt-10">
-              Commufy adalah aplikasi mobile yang mengintegrasikan berbagai moda transportasi publik dan ojek online untuk memberikan pengalaman perjalanan yang mudah, cepat, aman, dan efisien 
-              bagi para komuter urban. Aplikasi ini hadir sebagai solusi atas kemacetan, kurangnya integrasi transportasi, 
-              dan minimnya informasi perjalanan yang akurat di wilayah Jabodetabek.
+            <p className="font-medium mt-4">
+             Commufy adalah aplikasi mobile yang mengintegrasikan berbagai moda transportasi publik dan ojek online untuk memberikan pengalaman perjalanan yang mudah, cepat, aman, dan efisien bagi para komuter urban. 
+             Aplikasi ini hadir sebagai solusi atas kemacetan, kurangnya integrasi transportasi, 
+             dan minimnya informasi perjalanan yang akurat di wilayah Jabodetabek.
             </p>
           </div>
         </div>

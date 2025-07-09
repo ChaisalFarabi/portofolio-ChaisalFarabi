@@ -20,11 +20,11 @@ export default function Home() {
   ];
 
   const snakes = [
-    "/SnakesGP.jpg",
-    "/snakesgame.jpg",
-    "/snakeshome.jpg",
-    "/snakesmultiple.jpg",
-    "/SnakesExplain.jpg",
+    "/CVBuilder1.jpg",
+    "/CVBuilder2.jpg",
+    "/CVBuilder3.jpg",
+    "/CVBuilder4.jpg",
+    "/CVBuilder5.jpg",
   ];
 
   const transformStyles = [
@@ -122,9 +122,9 @@ export default function Home() {
         className="w-full flex flex-col items-center justify-center p-6 md:p-20 min-h-screen"
       >
         <div className="max-w-[80%] mx-auto">
-          {/* Gesit Project */}
+          {/* Mylento Project */}
           <div className="mb-12">
-            <h3 className="font-bold text-3xl text-center">GESIT</h3>
+            <h3 className="font-bold text-3xl text-center">MyLento</h3>
             <div className="flex flex-wrap gap-4 justify-center px-100 my-20">
               <BounceCards
                 className="custom-bounceCards"
@@ -147,9 +147,9 @@ export default function Home() {
              dapat mengajukan pertanyaan dan mendapatkan jawaban langsung dari para ahli atau tutor berpengalaman. 
             </p>
           </div>
-          {/* SnakesGP Project */}
+          {/* CV Builder Project */}
           <div className="my-40">
-            <h3 className="font-bold text-3xl text-center">SnakesGP</h3>
+            <h3 className="font-bold text-3xl text-center">CV Builder</h3>
             <div className="flex flex-wrap gap-4 justify-center px-100 my-20">
               <BounceCards
                 className="custom-bounceCards"
@@ -170,14 +170,10 @@ export default function Home() {
               />
             </div>
             <p className="font-medium mt-4">
-              SnakesGP is an educational board game application inspired by the
-              classic game of Snakes and Ladders, designed to introduce children
-              to the rich and diverse geoparks of Indonesia. Each tile on the
-              board features exciting facts, images, and quizzes about various
-              Indonesian geoparks, turning every move into a fun learning
-              experience. The goal of SnakesGP is to spark curiosity and
-              awareness about Indonesia’s natural and cultural heritage in a
-              playful, interactive way.
+              CV Builder adalah aplikasi berbasis objek yang dirancang untuk membantu mahasiswa dan pencari kerja dalam menyusun Curriculum Vitae (CV) secara praktis, profesional, dan efisien.
+              Aplikasi ini menyediakan berbagai template CV, fitur input data pribadi, serta kemampuan untuk mengedit, menyimpan,
+              dan mengunduh CV dalam format siap pakai seperti PDF. 
+              Menggunakan konsep Object-Oriented Programming (OOP) seperti enkapsulasi, pewarisan, dan polimorfisme untuk membuat aplikasi yang modular dan mudah dikembangkan.
             </p>
           </div>
           <div className="font-serif my-20">

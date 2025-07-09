@@ -12,11 +12,11 @@ import BounceCards from "@/components/blocks/Components/BounceCards/BounceCards"
 
 export default function Home() {
   const images = [
-    "/Gesit.jpg",
-    "/GesitCarbon.jpg",
-    "/GesitHome.jpg",
-    "/GesitFinding.jpg",
-    "/GesitOrder.jpg",
+    "/mylento1.jpg",
+    "/mylento2.jpg",
+    "/mylento3.jpg",
+    "/mylento4.jpg",
+    "/mylento5.jpg",
   ];
 
   const snakes = [
@@ -50,8 +50,8 @@ export default function Home() {
       >
         <TiltedCard
           imageSrc="/ChaisalFarabi.jpg"
-          altText="Rakha Ibnu"
-          captionText="Rakha Ibnu"
+          altText="Chaisal Farabi"
+          captionText="Chaisal Farabi"
           containerHeight="300px"
           containerWidth="300px"
           imageHeight="300px"
@@ -139,12 +139,12 @@ export default function Home() {
               />
             </div>
             <p className="mt-4">
-              Gesit is a modern ride-hailing application that uses electric
-              vehicles to help reduce carbon emissions and support a greener
-              future. In addition to eco-friendly transportation services, Gesit
-              also allows users to book tickets and check schedules for KRL
-              (commuter line), MRT, and LRT trains — all in one seamless
-              platform.
+             MyLento adalah sebuah platform digital yang bergerak di bidang akademis, 
+             bertujuan untuk memenuhi kebutuhan pelajar di Indonesia dalam memperdalam pemahaman mereka terhadap materi pembelajaran. 
+             Platform ini dirancang untuk membantu siswa yang menghadapi kesulitan dalam memahami konsep-konsep tertentu di berbagai mata pelajaran, 
+             seperti matematika, fisika, kimia, bahasa, dan lainnya. 
+             MyLento menawarkan fitur interaktif di mana pelajar 
+             dapat mengajukan pertanyaan dan mendapatkan jawaban langsung dari para ahli atau tutor berpengalaman. 
             </p>
           </div>
           {/* SnakesGP Project */}

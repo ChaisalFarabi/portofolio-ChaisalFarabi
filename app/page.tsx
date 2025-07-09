@@ -190,10 +190,9 @@ export default function Home() {
               />
             </div>
             <p className="mt-10">
-              Removies is a website that allows users to view movie ratings,
-              discover directors, and explore a list of recommended films. The
-              website is built using HTML, CSS, and JavaScript, with JavaScript
-              specifically used to handle login authentication.
+              Commufy adalah aplikasi mobile yang mengintegrasikan berbagai moda transportasi publik dan ojek online untuk memberikan pengalaman perjalanan yang mudah, cepat, aman, dan efisien 
+              bagi para komuter urban. Aplikasi ini hadir sebagai solusi atas kemacetan, kurangnya integrasi transportasi, 
+              dan minimnya informasi perjalanan yang akurat di wilayah Jabodetabek.
             </p>
           </div>
         </div>

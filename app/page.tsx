@@ -34,6 +34,13 @@ export default function Home() {
     "/Commufy4.jpg",
     "/Commufy5.jpg",
   ];
+    const clusteringImages = [
+    "/clustering1.jpg",
+    "/clustering2.jpg",
+    "/clustering3.jpg",
+    "/clustering4.jpg",
+    "/clustering5.jpg",
+  ];
 
   const transformStyles = [
     "rotate(5deg) translate(-150px)",
@@ -209,6 +216,34 @@ export default function Home() {
              Commufy adalah aplikasi mobile yang mengintegrasikan berbagai moda transportasi publik dan ojek online untuk memberikan pengalaman perjalanan yang mudah, cepat, aman, dan efisien bagi para komuter urban. 
              Aplikasi ini hadir sebagai solusi atas kemacetan, kurangnya integrasi transportasi, 
              dan minimnya informasi perjalanan yang akurat di wilayah Jabodetabek.
+            </p>
+          </div>
+          {/* Clustering Project */}
+          <div className="my-40">
+            <h3 className="font-bold text-3xl text-center">Clustering Analysis of Employee Absenteeism using K-Means and DBSCAN</h3>
+            <div className="flex flex-wrap gap-4 justify-center px-100 my-20">
+              <BounceCards
+                className="custom-bounceCards"
+                images={clusteringImages}
+                containerWidth={800}
+                containerHeight={400}
+                animationDelay={1}
+                animationStagger={0.08}
+                easeType="elastic.out(1, 0.5)"
+                transformStyles={[
+                  "rotate(5deg) translate(-150px)",
+                  "rotate(0deg) translate(-70px)",
+                  "rotate(-5deg)",
+                  "rotate(5deg) translate(70px)",
+                  "rotate(-5deg) translate(150px)",
+                ]}
+                enableHover={true}
+              />
+            </div>
+            <p className="font-medium mt-4">
+          Conducting clustering analysis on employee absence data using the “Absenteeism at Work” dataset from UCI, by applying the K-Means and DBSCAN algorithms. 
+          This project includes data loading, EDA, preprocessing, feature selection, and visualization of clustering results using PCA. 
+          The results show that K-Means with 3 clusters (determined through the Elbow Method) produces the best segmentation based on Silhouette Score (0.407) and DBI (0.932), while DBSCAN is effective in identifying outliers (cluster -1).
             </p>
           </div>
         </div>

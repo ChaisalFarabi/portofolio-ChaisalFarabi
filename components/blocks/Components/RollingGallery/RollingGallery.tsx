@@ -19,6 +19,8 @@ const IMGS: string[] = [
   "/canva.png",
   "/colab.png",
   "/Trello.png",
+   "/vscode.png",
+    "/java.png",
 ];
 
 interface RollingGalleryProps {

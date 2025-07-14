@@ -45,6 +45,7 @@ export default function Home() {
     "/Analysis1.jpg",
     "/Analysis2.jpg",
     "/Analysis3.jpg",
+    "/Analysis4.png",
   ];
 
     const runaddictsImages = [

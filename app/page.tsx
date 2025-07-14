@@ -92,7 +92,7 @@ export default function Home() {
           }
         />
         <div className="flex flex-col items-start justify-center max-w-lg">
-          <h3 className="text-4xl font-bold">Hi i'm Chaisal Farabi</h3>
+          <h3 className="text-4xl font-bold">Hi I&apos;m Chaisal Farabi</h3>
           <p className="mt-4 text-l">
         I am an active 5th-semester student in the Information Systems Study Program at UPN Veteran Jakarta, class of 2023. 
         I have a strong interest in product management and data analysis, with hands-on experience in conducting user research, developing product ideas, and planning product roadmaps through various bootcamp projects. 

@@ -20,7 +20,6 @@ const IMGS: string[] = [
   "/colab.png",
   "/Trello.png",
    "/vscode.png",
-    "/java.png",
 ];
 
 interface RollingGalleryProps {

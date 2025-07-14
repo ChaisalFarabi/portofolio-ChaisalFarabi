@@ -94,10 +94,10 @@ export default function Home() {
         <div className="flex flex-col items-start justify-center max-w-lg">
           <h3 className="text-4xl font-bold">Hi i'm Chaisal Farabi</h3>
           <p className="mt-4 text-l">
-I am an active 5th-semester student in the Information Systems Study Program at UPN "Veteran" Jakarta, class of 2023. 
-I have a strong interest in product management and data analysis, with hands-on experience in conducting user research, developing product ideas, and planning product roadmaps through various bootcamp projects. 
-I am also familiar with tools such as Google Sheets, basic SQL, Canva, Trello, and FigJam. 
-Currently, I am continuously developing my skills to contribute to the creation of impactful and user-relevant digital solutions.
+        I am an active 5th-semester student in the Information Systems Study Program at UPN Veteran Jakarta, class of 2023. 
+        I have a strong interest in product management and data analysis, with hands-on experience in conducting user research, developing product ideas, and planning product roadmaps through various bootcamp projects. 
+        I am also familiar with tools such as Google Sheets, basic SQL, Canva, Trello, and FigJam. 
+        Currently, I am continuously developing my skills to contribute to the creation of impactful and user-relevant digital solutions.
           </p>
           <div className="flex gap-4 text-center items-center justify-center">
             <Button className="mt-6" variant="default">
